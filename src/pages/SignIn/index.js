@@ -43,6 +43,7 @@ export default function Signin({ navigation }) {
             placeholder="Digite seu email"
             returnKeyType="next"
             onSubmitEditing={() => passwordRef.current.focus()}
+            value={email}
             onChangeText={setEmail}
           />
           <FormInput
@@ -52,10 +53,11 @@ export default function Signin({ navigation }) {
             ref={passwordRef}
             returnKeyType="send"
             onSubmitEditing={handleSubmit}
+            value={password}
             onChangeText={setPassword}
           />
 
-          <SubmitButton loading={loading} onPress={() => {}}>
+          <SubmitButton loading={loading} onPress={handleSubmit}>
             Acessar
           </SubmitButton>
         </Form>
