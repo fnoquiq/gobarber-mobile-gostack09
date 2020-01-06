@@ -1,6 +1,6 @@
 <img src="https://s3.us-east-2.amazonaws.com/gobarber-img/logo.svg" height = "150"/>
 
-Este projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi iniciado com [React Native init](https://facebook.github.io/react-native/docs/getting-started).
 
 ---
 
